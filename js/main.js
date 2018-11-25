@@ -14,6 +14,7 @@ function createRandomCanvas(){
         canvasArray.push(canvas);
     }
     addCanvasId(randomN);
+    document.querySelector("#generateBtn").disabled = false;
 }
 
 function generateShapes(){
