@@ -1,0 +1,29 @@
+<doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="left-container">
+               <button onclick="createRandomCanvas()">Generate Canvas</button>
+               <div>
+                   <select name="" id="canvasSelect"></select>
+                   <select name="" id="shapesDropDown">
+                       <option value="rectangle">Rectangle</option>
+                       <option value="triangle">Triangle</option>
+                       <option value="circle">Circle</option>
+                   </select>
+               </div>
+               <button onclick="generateShapes()">Generate Shape</button>
+            </div>
+            <div class="right-container" id="canvasContainer">
+
+            </div>
+        </div>
+        <script src="js/lib/fabric.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

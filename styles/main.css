@@ -1,0 +1,19 @@
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main-container>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-container{
+    margin-top: 10%;
+}
+
+.right-container>.canvas-container{
+    border: 1px solid #000;
+    margin: 5px;
+}
